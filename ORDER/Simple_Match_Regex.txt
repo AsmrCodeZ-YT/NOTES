@@ -1,0 +1,23 @@
+Simple Match Regex:
+
+Matching at specific points ^ and
+classes [abc] and reversing [^abc]
+wildcard -> .
++ * ? and {n,m}
+\d decimal digit
+\D non-digit character
+Is whitespace character
+IS non-whitespace character
+\w alphanumeric character
+\W non-alphanumeric character
+quoting special chars
+-> greedy matching: /th .*? s/
+
+Email or Gmail:
+- python : (^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)
+
+
+gedit
+vi: s/a/b/
+python: re.search(r'user name ( .. )
+python sub: num = re.sub(r'\D', ""

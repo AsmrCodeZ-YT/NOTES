@@ -1,0 +1,5 @@
+Email,Gmail,Phone Hunter
+
+- Use Regex
+- Use Snipping Tool
+
