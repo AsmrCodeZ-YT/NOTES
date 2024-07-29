@@ -1,0 +1,30 @@
+https://github.com/Qv2ray/Qv2ray/releases
+https://www.v2fly.org/en_US/awesome/tools.html
+https://davidmatthew.ie/how-to-launch-an-appimage-ubuntu/
+
+
+# after download 
+chmod -x Inkscape-xxx.AppImage
+sudo add-apt-repository universe
+sudo apt install libfuse2
+
+# Step 2: Extract the AppImage
+
+./Inkscape-xxx.AppImage --appimage-extract
+sudo mv squashfs-root /opt/inkscape
+cd ~ && touch inkscape.desktop
+
+############
+
+[Desktop Entry]
+Name=Inkscape
+Type=Application
+Categories=Graphics;
+MimeType=image/svg+xml;
+Exec=/opt/inkscape/AppRun %F
+Icon=/opt/inkscape/inkscape.svg
+Terminal=false
+StartupNotify=true
+
+############
+sudo desktop-file-install inkscape.desktop
