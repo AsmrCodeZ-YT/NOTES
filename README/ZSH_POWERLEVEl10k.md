@@ -1,6 +1,6 @@
 # How to Install ZSH on Ubuntu 23.10 | Install Oh-my-ZSH on Ubuntu 23.10 | Replace your Bash Shell
 
-![screenshot](../src/zsh.png)
+![screenshot](/src/zsh.png)
 
 
 
